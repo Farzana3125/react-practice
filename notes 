@@ -1,0 +1,57 @@
+<!-- # simple helo word with html 
+# hello world with js  - how the browser understant what is document.create element ? namsthe js --thease are powers that browser already have, browser have js engine which exicute javascript code>
+#does the browser understand whats is react when we write react in our code? no we have to get react into our code,
+method 1 = cdn - when eput react cdn  browser will understand what is the react , link => its just just a javscript that fb developers build for us , this is react code
+console = react = this is coming from the react that we injected using cdn, now we can use react which gives lots of functions and methods that we use 
+console = reactdom = this is from react dom which gives lots of functions and mthods from dom manupulation
+cdn 1 = core of react all react file
+cdn 2 link = dom operation and to modify dom
+ now we are goin to use these functions and methods that react and reactdom gives to us this is the way to write react
+
+under the react link in script tag 
+we ude document in javascipt here we use react :-
+
+const heading = React.createElement{"h1",{id:name},"helloi word"}core
+we need to createRoot 
+const root = ReactDom.createRoot(documnet.getElementbyId("root"));
+root.render(heading)
+
+reactelement is object, it is the responsiblity of  render method take the object convert it into h1 tag and put it on the dom
+reactelement(object) => html(browserunderstand)
+now we creating a page to add react = App.js
+
+creating nested structure = to simplify this we use jsx
+when there is already have an element in root that will be replaced by the root.render("something")
+
+#pushing our code to git
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+note :-
+
+react is the ost popular jslibrary to build largescale front end application today
+Emmet = is a web development toolkit that enables developers to write html and css code more quikly and efficientle. 
+it uses shorthand syntax to expand simple expressions into full-fleged htmlcode.
+eg ul>li*5 like this 
+
+cdn condent delevery network = where the react library is hosted , we just fetching that and put into our code using cdn links
+
+
+
+hw 
+ crossorigin
+
+
+
